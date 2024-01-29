@@ -1,0 +1,340 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    line-height: 2.5;
+    background-color: #000000;
+}
+
+.imagem_logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+/* Index */
+.background-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#background1 {
+    background-image: url('IMAGENS/home.jpg');
+}
+
+#background2 {
+    background-image: url('IMAGENS/Decodificador.jpg');
+}
+
+#background3 {
+    background-image: url('IMAGENS/contato.jpg');
+    justify-content: end;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+/* header */
+.menu{
+    margin-right: 10px;
+    box-shadow: none;
+    padding: 1px 0;
+    text-align: center;
+}
+.nav-barra{
+    box-shadow: none;
+    z-index: auto;
+}
+.container{
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+}
+.nav-lista{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 00;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-link {
+    margin: 20px;
+    text-decoration: none;
+    color: #FFF;
+    align-items: center;
+    font-weight: 700;
+}
+
+/* Index/ Home */
+.texto{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-left: 600px;
+    align-items: center;
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+/* DECODIFICADOR */
+.textoInicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 10px 350px 0 0;
+    border-radius: 10px;
+    border-color: #6e30d3;
+  }
+ 
+.area-texto{
+    color: aliceblue;
+    font-weight: 700;
+    line-height: 1.0;
+}
+.mensagem-texto{
+    display: flex;
+    justify-content: space-around;
+    color: azure;
+}
+.imagem{
+    height: 250px;
+    margin: 50px;
+}
+.imagem2{
+    height: 250px;
+    margin: 170px 0px 80px 200px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between ;
+ 
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+textarea {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    
+    font-size: 18px;
+    background-color: #41008b00;
+    border-radius: 10px;
+    border-color: #6e30d3;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    margin:0 10px;
+    background: #41008b;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fffffffb;
+}
+.atencao {
+    background-color: rgb(250, 246, 246);
+    border-radius: 10px;
+    padding: 10px;
+ 
+    line-height: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 8, 123);
+}
+
+/* CONTATO */
+.contato-container {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    margin: 20px;
+    border: 1px solid #7d4efd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #4400ff12;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-form {
+    display: flex;
+}
+
+.contato-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contato-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contato-form button:hover {
+    background-color:#7161c0;
+    
+}
+.text-mensagem{
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    margin:10px;
+    padding: 10px;
+    background-color:#7161c0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 80%; 
+    }
+
+    .texto {
+        width: auto;
+        height: auto;
+        margin:15px;
+    }
+
+    .background-section {
+        width: 100%;
+        height:100%;
+    }
+
+    .menu {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .nav-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+    }
+
+    .textoInicial {
+        margin: 5px;
+        padding: 5px
+    }
+
+    textarea {
+        width: 120px;
+        height: 120px; 
+    }
+
+    .contato-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        margin: 20px;
+        border: 1px solid #7d4efd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #4400ff12;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato-form label {
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .contato-form input,
+    .text-mensagem {
+        width: 100%; 
+        padding: 8px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .contato-form button {
+        margin: 10px 0; 
+        padding: 10px;
+        background-color: #7161c0;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .contato-form button:hover {
+        background-color: #523d8c; 
+    }
+
+    footer {
+        text-align: center;
+        margin: 0;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+}

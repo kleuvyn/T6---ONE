@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-barra">
+      <div  class="container">
+          <div  class="nav-lista">
+              <a href="index.html" >
+                  <img class="imagem_logo" src="IMAGENS/logo.png" alt="Logo">
+              </a>
+              <a href="descriptografar.html" class="nav-link">
+                  Descriptografar
+              </a>
+
+              <a href="contato.html" class="nav-link">
+                  Contato
+              </a>
+          </div>
+      </div>
+  </nav>
+    <div class="mobile-menu">
+      <div  class="container">
+        <div class="nav-lista">
+          <a href="index.html" >
+            <!-- <img class="imagem-logo nav-item imagem-logo" src="IMAGENS/logo.png" alt="Logo"> -->
+          </a>
+        </div>
+      </div>  
+
+    </div>
+  </header>
+
+  <section id="background3" class="background-section">
+
+    <div class="contato-container">
+
+      <form class="contato-form">
+        
+        <div>
+          <h2>Contato:</h2>
+          <ul>
+            <li>📞 Telefone: (61) 98466-0734</li>
+            <li>✉️ E-mail: <a href="mailto:b.kleuvyn@gmail.com">b.kleuvyn@gmail.com</a></li>
+          </ul>
+  
+          <label for="texto">Nome: </label>
+          <br>
+          <input type="text" name="nome" id="texto" placeholder="Informe o seu nome...">
+          <br>
+          <label for="telefone">Telefone: </label>
+          <br>
+          <input type="text" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+          <br>
+          <label for="hora">Horário para entrar em contato: </label>
+          <br>
+          <input type="time" name="hora" id="hora">
+          <br>
+
+        </div>
+  
+        <div>
+
+            <label for="primeiro-contato">Primeiro Contato: </label>
+            <br>
+            <label for="sim">Sim: </label>
+            <input type="radio" name="primeiro-contato" id="sim">
+            <label for="nao">Não: </label>
+            <input type="radio" name="primeiro-contato" id="nao">
+            <br>
+            <label for="mensagem">Mensagem</label>
+            <br>
+            <textarea name="mensagem" id="mensagem" cols="50" rows="10" class="text-mensagem"></textarea>
+
+            <button type="button" name="confirmar" id="confirmarBtn">Confirmar</button>
+        </div>
+      </form>
+    </div>
+  </section>>
+
+  <section class="footer">
+    <footer>
+        &copy; 2023 Kleuvyn
+    </footer>
+  </section>
+  <script src="script cont.js"></script>
+</body>
+</html>
