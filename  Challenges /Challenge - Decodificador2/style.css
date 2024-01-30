@@ -6,44 +6,45 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    line-height: 2.5;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .imagem_logo{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
 }
 /* Index */
 .background-section {
     display: flex;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+    color: #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
 #background1 {
-    background-image: url('IMAGENS/2.jpg');
+    background-image: url('IMAGENS/2.png');
 }
 
 #background2 {
-    background-image:url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
+    background-image: url('IMAGENS/2.png');
+    background-position: right center;
 }
-
-#background3 {
-    background-image:url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
-    justify-content: end;
-    align-items: center;
-    color: #fff;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    text-decoration: none;
+#background3{
+    width: 90%;
+    height: 90vh;
+    margin: 40px;
+    background-position: start;
+    align-items:start;
+    color: #000000;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* header */
@@ -52,11 +53,14 @@ body {
     box-shadow: none;
     padding: 1px 0;
     text-align: center;
+
 }
 .nav-barra{
     box-shadow: none;
     z-index: auto;
+    background-color: #000000;
 }
+
 .container{
   flex-grow: 1;
   margin: 0 auto;
@@ -67,13 +71,12 @@ body {
     width: 100%;
     justify-content: space-between;
     margin: 0px;
-
-    color: #FFF;
+    color: #ffffff;
     text-align: justify;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: 00;
+    font-weight: 500px;
     line-height: normal;
     text-decoration: none;
 }
@@ -81,7 +84,7 @@ body {
 .nav-link {
     margin: 20px;
     text-decoration: none;
-    color: #FFF;
+    color: #ffffff;
     align-items: center;
     font-weight: 700;
 }
@@ -89,16 +92,16 @@ body {
 /* Index/ Home */
 .texto{
     display: flex;
-    width: 600px;
-    height: 600px;
-    margin-left: 600px;
+    width: 200px;
+    height: 500px;
+    margin-left: 300px;
     align-items: center;
-    color: #FFF;
+    color: #000000;
     text-align: justify;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 13px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
 }
@@ -110,29 +113,23 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    margin: 10px 350px 0 0;
+    margin: 0px 700px 0 10px;
     border-radius: 10px;
-    border-color: #6e30d3;
+    border-color: #000000;
   }
  
 .area-texto{
-    color: aliceblue;
-    font-weight: 700;
+    display: flex;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
     line-height: 1.0;
 }
 .mensagem-texto{
     display: flex;
-    justify-content: space-around;
-    color: azure;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
 }
-.imagem{
-    height: 250px;
-    margin: 50px;
-}
-.imagem2{
-    height: 250px;
-    margin: 170px 0px 80px 200px;
-}
+
 .flex-container{
     display: flex;
     justify-content: space-between ;
@@ -145,13 +142,13 @@ form {
 textarea {
     display: flex;
     justify-content: space-between;
-    width: 300px;
-    height: 300px;
+    width: 222px;
+    height: 350px;
     
     font-size: 18px;
-    background-color: #41008b00;
+    background-color: #ffffff00;
     border-radius: 10px;
-    border-color: #6e30d3;
+    border-color: #020202;
 }
 .botao{
     display: flex;
@@ -162,14 +159,14 @@ button {
     display: flex;
     justify-content: space-between;
     margin:0 10px;
-    background: #41008b;
+    background: #818181;
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 16px;
     color: #fffffffb;
 }
 .atencao {
-    background-color: rgb(250, 246, 246);
+    background-color: rgb(224, 224, 224);
     border-radius: 10px;
     padding: 10px;
  
@@ -181,12 +178,11 @@ button {
 /* CONTATO */
 .contato-container {
     display: flex;
-    width: 600px;
-    height: 500px;
-    margin: 20px;
-    border: 1px solid #7d4efd;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #4400ff12;
+    width: 500px;
+    height: 550px;
+    border: 1px solid #000000;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #000000;
     justify-content: center;
     align-items: center;
 }
@@ -208,18 +204,18 @@ button {
 }
 
 .contato-form button:hover {
-    background-color:#7161c0;
+    background-color:#000000;
     
 }
 .text-mensagem{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 80px;
 }
 
 button {
     margin:10px;
     padding: 10px;
-    background-color:#7161c0;
+    background-color:#8b8b8b;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -233,7 +229,9 @@ button {
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 50px;
     margin: 0;
     background-color: #000000;
     color: #ffffff;
@@ -241,46 +239,58 @@ footer{
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 900px) {
-.texto {
+    .texto {
         width: auto;
         height: auto;
-        margin:48px;
+        margin:350px 48px 0;
+        background-position: center center;
     }
 
     .background-section {
-        width:auto;
+        width: auto;
         height: auto;
         margin: 5px;
         padding: 5px;
     }
 
     #background1 {
-        background-image: url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
-        background-position: left center;
-        width:100%;
-        height:auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-image: url('IMAGENS/5081336.jpg');
+        background-position: top;
     }
 
     #background2 {
-        background-image:url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
+        background-image: url('IMAGENS/Decodificador.jpg');
         flex-direction: column;
         background-position: center;
-        width:95%;
-        height:auto;
-    }
-
-    #background3 {
-        background-image: url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
-        flex-direction: column;
-        background-position: center ;
-        width:auto;
+        width: 95%;
         height: auto;
     }
 
+    #background3 {
+        background-image: url('IMAGENS/3.jpg');
+        flex-direction: column;
+        background-position: center;
+        width: auto;
+        height: auto;
+    }
+    textarea{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 150px;
+        margin: 0; 
+      
+
+    }
     .menu {
         margin-right: 0;
         text-align: center;
@@ -297,28 +307,22 @@ footer{
 
     .textoInicial {
         margin: 5px;
-        padding: 5px
-    }
-    .texto{
-        font-weight: 1000;
+        padding: 5px;
     }
 
-    .textarea {
-        width: 50px;
-        height: 50px; 
+    .contato-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        height: auto; 
+        justify-content: start;
+        padding: 12px;
     }
 
     .contato-container .mensagem-texto {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        color: rgb(255, 255, 255);
-    }
-
-    .contato-container form {
-        display: flex;
-        flex-direction: column; 
-        justify-content: space-between;
+        color: rgb(0, 0, 0);
     }
 
     .contato-container .botao {
@@ -326,27 +330,16 @@ footer{
         justify-content: center;
     }
 
-    .contato-container{
-        border: unset;
-        width:0%; 
-        height:0%;
-    }
-
     .contato-container button {
         display: flex;
         justify-content: space-between;
-        margin: 10px 0; 
         font-family: sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         color: #fffffffb;
     }
-
     footer {
         text-align: center;
         margin: 0;
     }
 
-    .mobile-menu-icon {
-        display: block;
-    }
 }

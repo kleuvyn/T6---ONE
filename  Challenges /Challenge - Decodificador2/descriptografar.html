@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>D35cr1pt0gr4f4r</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-barra">
+            <div  class="container">
+                <div  class="nav-lista">
+                    <a href="index.html" >
+                        <img class="imagem_logo" src="IMAGENS/logo.png" alt="Logo">
+                    </a>
+                    <a href="descriptografar.html" class="nav-link">
+                        Descriptografar
+                    </a>
+
+                    <a href="contato.html" class="nav-link">
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="background2" class="background-section">
+        <div class="textoInicial">
+
+            <h1>
+                Escreva a sua mensagem!
+            </h1>
+            
+            <textarea class="area-texto" minlength=20  maxlength=255 name="sugestao">
+            </textarea>
+
+            <h6 class="atencao">ATENÇÃO SÓ LETRAS MINÚSCULAS SEM ACENTO!
+            </h6> 
+
+            <div class="botao">
+                <button class="botaoDescriptografar" onclick="botaoDescriptografar()">Descriptografar
+                </button>
+    
+    
+                <button class="botaoCriptografar" onclick="botaoCriptografar()">Criptografar
+                </button>
+    
+            </div>
+            
+        </div>
+
+      
+
+
+        <div>
+            <textarea class="container mensagem-texto" minlength=20  maxlength=255 name="sugestao">
+
+            </textarea>
+
+
+            <button class="botao-copiar" onclick="botaoCopiar()">Copiar
+            </button>
+        </div>
+    </section>
+
+    <section class="footer">
+        <footer class="footer-conteudo">
+            &copy; 2023 Kleuvyn
+        </footer>
+    
+      </section>
+      <script src="script.js"></script>
+       
+</body>
+</html>
