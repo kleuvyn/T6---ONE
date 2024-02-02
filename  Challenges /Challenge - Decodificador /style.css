@@ -28,15 +28,15 @@ body {
 }
 
 #background1 {
-    background-image: url('IMAGENS/2.jpg');
+    background-image: url('IMAGENS/home.jpg');
 }
 
 #background2 {
-    background-image:url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
+    background-image: url('IMAGENS/Decodificador.jpg');
 }
 
 #background3 {
-    background-image:url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
+    background-image: url('IMAGENS/contato.jpg');
     justify-content: end;
     align-items: center;
     color: #fff;
@@ -114,7 +114,7 @@ body {
     border-radius: 10px;
     border-color: #6e30d3;
   }
- 
+
 .area-texto{
     color: aliceblue;
     font-weight: 700;
@@ -136,7 +136,7 @@ body {
 .flex-container{
     display: flex;
     justify-content: space-between ;
- 
+
 }
 form {
     display: flex;
@@ -147,7 +147,7 @@ textarea {
     justify-content: space-between;
     width: 300px;
     height: 300px;
-    
+
     font-size: 18px;
     background-color: #41008b00;
     border-radius: 10px;
@@ -172,7 +172,7 @@ button {
     background-color: rgb(250, 246, 246);
     border-radius: 10px;
     padding: 10px;
- 
+
     line-height: 30px;
     font-family: sans-serif;
     color: rgb(255, 8, 123);
@@ -181,12 +181,12 @@ button {
 /* CONTATO */
 .contato-container {
     display: flex;
-    width: 600px;
-    height: 500px;
-    margin: 20px;
-    border: 1px solid #7d4efd;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #4400ff12;
+    margin: 0 100px;
+    width: 450px;
+    height: 615px;
+    border: 1px solid #6e30d3;
+    border-radius: 60px;
+    box-shadow: 0 0 10px #6e30d3;
     justify-content: center;
     align-items: center;
 }
@@ -203,23 +203,23 @@ button {
 .contato-form input {
     padding: 8px;
     margin-bottom: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #6e30d3;
     border-radius: 4px;
 }
 
 .contato-form button:hover {
-    background-color:#7161c0;
+    background-color:#6e30d3;
     
 }
 .text-mensagem{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 80px;
 }
 
 button {
     margin:10px;
     padding: 10px;
-    background-color:#7161c0;
+    background-color:rgb(187, 85, 255);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -229,6 +229,7 @@ button {
 .mobile-menu-icon {
     display: none;
 }
+
 
 footer{
     display: flex;
@@ -246,9 +247,10 @@ footer{
 
 @media screen and (max-width: 900px) {
 .texto {
-        width: auto;
-        height: auto;
-        margin:48px;
+        width: 20px;
+        height: 50px;
+        margin:0px;
+        font-size: 12px;
     }
 
     .background-section {
@@ -259,24 +261,24 @@ footer{
     }
 
     #background1 {
-        background-image: url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
-        background-position: left center;
+        background-image: url('IMAGENS/1.jpg');
+        background-position: center center;
         width:100%;
-        height:auto;
+        height: 400px;
     }
 
     #background2 {
-        background-image:url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
+        background-image: url('IMAGENS/');
         flex-direction: column;
-        background-position: center;
-        width:95%;
-        height:auto;
+        background-position: center center;
+        width: 100%;
+        height: auto;
     }
 
     #background3 {
-        background-image: url('IMAGENS/Captura\ de\ tela\ de\ 2024-01-26\ 19-13-51.png');
+        background-image: url('IMAGENS/contato.jpg');
         flex-direction: column;
-        background-position: center ;
+        background-position: right center ;
         width:auto;
         height: auto;
     }

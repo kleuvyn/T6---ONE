@@ -113,7 +113,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    margin: 0px 700px 0 10px;
+    margin: 0px 700px 0 52px;
     border-radius: 10px;
     border-color: #000000;
   }
@@ -142,8 +142,8 @@ form {
 textarea {
     display: flex;
     justify-content: space-between;
-    width: 222px;
-    height: 350px;
+    width: 210px;
+    height: 340px;
     
     font-size: 18px;
     background-color: #ffffff00;

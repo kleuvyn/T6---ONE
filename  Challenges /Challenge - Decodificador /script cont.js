@@ -1,14 +1,3 @@
-function menuShow() {
-  let menuMobile = document.querySelector('.mobile-menu');
-  if (menuMobile.classList.contains('open')) {
-    menuMobile.classList.remove('open');
-    document.querySelector('.icon').src="https://img.icons8.com/?size=256&id=quuyJoZCkYni&format=png";
-  } else {
-    menuMobile.classList.add('open');
-    document.querySelector('.icon').src="https://img.icons8.com/?size=256&id=K7OXfoF0zHXw&format=pngg";
-  }
-}
-
 const switchModal = () => {
   const modal = document.querySelector('.modal')
   const actualStyle = modal.style.display
@@ -44,7 +33,6 @@ window.onclick = function(event) {
 function obterValoresFormulario() {
   const nome = document.getElementById('texto').value;
   const telefone = document.getElementById('telefone').value;
-  const email = document.getElementById('email').value;
   const hora = document.getElementById('hora').value;
   const primeiroContatoSim = document.getElementById('sim').checked;
   const primeiroContatoNao = document.getElementById('nao').checked;
@@ -53,7 +41,6 @@ function obterValoresFormulario() {
   return {
     nome,
     telefone,
-    email,
     hora,
     primeiroContatoSim,
     primeiroContatoNao,
@@ -65,7 +52,6 @@ function construirCorpoEmail(valores) {
   return `
     Nome: ${valores.nome}
     Telefone: ${valores.telefone}
-    E-mail: ${valores.email}
     Horário para entrar em contato: ${valores.hora}
     Primeiro Contato: ${valores.primeiroContatoSim ? 'Sim' : 'Não'}
     Mensagem: ${valores.mensagem}
