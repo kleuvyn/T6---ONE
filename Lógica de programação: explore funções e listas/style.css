@@ -21,14 +21,14 @@ body::before {
     content: "";
     display: block;
     position: absolute;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     opacity: 0.4;
 }
 
 .container {
-    width: 80%;
-    height: 80%;
+    width: 1200px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,6 +64,10 @@ body::before {
     margin-top: 2rem;
 }
 
+button:disabled {
+    background-color: gray;
+}
+
 .container__texto {
     margin: 16px 0 16px 0;
 }
@@ -92,7 +96,7 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 53px;
+    font-size: 72px;
     padding-bottom: 3rem;
 }
 
@@ -102,39 +106,6 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 400;
-}
-
-button:disabled {
-    background-color: gray;
-}
-
-@media screen and (max-width: 1250px) {
-
-    h1 {
-        font-size: 50px;
-    }
-
-    .container__botao {
-        font-size: 16px;
-    }
-
-
-    .texto__paragrafo {
-        font-size: 24px;
-    }
-
-    .container__imagem-pessoa {
-        display: none;
-    }
-
-    .container__conteudo {
-        display: block;
-        position: inherit;
-    }
-
-    .container__informacoes {
-        padding: 1rem
-    }
 }
