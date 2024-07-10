@@ -1,0 +1,144 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+      "descricao": "3 mil visualizações",
+      "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 2,
+      "titulo": "Desmistificando mobile - Linguagens e Frameworks",
+      "descricao": "1,5 mil visualizações",
+      "url": "https://www.youtube.com/embed/fmu1LQvZhms",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 3,
+      "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
+      "descricao": "30 mil visualizações",
+      "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 4,
+      "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
+      "descricao": "2,5 mil visualizações",
+      "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 5,
+      "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
+      "descricao": "1,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 6,
+      "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
+      "descricao": "1,6 mil visualizações",
+      "url": "https://www.youtube.com/embed/vf9P_PycgRw",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 7,
+      "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
+      "descricao": "3,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/Nts3P35mHzE",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": 8,
+      "titulo": "baNaNa | Memes do JavaScript #2",
+      "descricao": "1,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
+      "descricao": "1 mil visualizações",
+      "url": "https://www.youtube.com/embed/z43rcfjXOxU",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "9 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 10
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "4 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 11
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "7 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 12
+    },
+    {
+        "titulo": "Vale a pena estudar na Alura? Iniciante em programação",
+        "descricao": "Avaliação dos cursos para iniciantes em programação",
+        "url": "https://www.youtube.com/embed/jImKLWqnexc",
+        "imagem": "https://i.ytimg.com/vi/jImKLWqnexc/hqdefault.jpg",
+        "id": 13
+    },
+    {
+        "titulo": "Alura vale a pena? É bom? É reconhecido no mercado?",
+        "descricao": "Análise completa da plataforma Alura",
+        "url": "https://www.youtube.com/embed/rkDbfKs1-LQ",
+        "imagem": "https://i.ytimg.com/vi/rkDbfKs1-LQ/hqdefault.jpg",
+        "id": 14
+    },
+    {
+        "titulo": "Arquitetura Orientada a Eventos | #AluraMais",
+        "descricao": "Modelagem de arquiteturas orientadas a eventos",
+        "url": "https://www.youtube.com/embed/qaSS4Pci8vM",
+        "imagem": "https://i.ytimg.com/vi/qaSS4Pci8vM/hqdefault.jpg",
+        "id": 15
+    },
+    {
+        "titulo": "Novo curso sobre Inteligência artificial Generativa: Midjourney e ChatGPT na Alura",
+        "descricao": "Introdução ao curso de IA generativa",
+        "url": "https://www.youtube.com/embed/RtN5lbT7en0",
+        "imagem": "https://i.ytimg.com/vi/RtN5lbT7en0/hqdefault.jpg",
+        "id": 16
+    },
+    {
+        "titulo": "VSCode: Dicas e Truques | #AluraMais",
+        "descricao": "Dicas e truques para o Visual Studio Code",
+        "url": "https://www.youtube.com/embed/C3o9KwOHeCk",
+        "imagem": "https://i.ytimg.com/vi/C3o9KwOHeCk/hqdefault.jpg",
+        "id": 17
+    },
+    {
+        "titulo": "Os Melhores Cursos de PROGRAMAÇÃO Online para INICIANTES",
+        "descricao": "Tier list dos melhores cursos de programação online",
+        "url": "https://www.youtube.com/embed/Tao7JbtboZ0",
+        "imagem": "https://i.ytimg.com/vi/Tao7JbtboZ0/hqdefault.jpg",
+        "id": 18
+    },
+    {
+        "titulo": "Como Aprender a Programar do Zero | #HipstersPontoTube",
+        "descricao": "Guia para iniciantes em programação",
+        "url": "https://www.youtube.com/embed/Cdk3bg49MsU",
+        "imagem": "https://i.ytimg.com/vi/Cdk3bg49MsU/hqdefault.jpg",
+        "id": 19
+    },
+    {
+        "titulo": "O que é o Alura+?",
+        "descricao": "Explicação sobre o serviço Alura+",
+        "url": "https://www.youtube.com/embed/KPf9UCUpLwo",
+        "imagem": "https://i.ytimg.com/vi/KPf9UCUpLwo/hqdefault.jpg",
+        "id": 20
+    }
+]
+}

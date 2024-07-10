@@ -1,0 +1,57 @@
+{
+    "titulo": "Kit Café da Manhã Star Wars",
+    "descricao": "Prepare-se para embarcar em uma jornada épica todas as manhãs com o Kit Café da Manhã Star Wars! Este conjunto empolgante é projetado para transformar suas manhãs em uma aventura galáctica.",
+    "url": "https://exemplo.com/kit-cafe-da-manha-star-wars",
+    "imagem": "/imagem/kit_cafe_da_manha_star_wars_8958_1_79749aac66bd0fdbf46fc7d546ef9313.webp",
+    "id": 1,
+    "especificacoes": {
+        "prato": {
+            "medidas": "19,5 cm de diâmetro",
+            "material": "Cerâmica"
+        },
+        "bowl": {
+            "medidas": {
+                "altura": "7 cm",
+                "largura": "14 cm"
+            },
+            "material": "Cerâmica",
+            "capacidade": "400 ml"
+        },
+        "caneca": {
+            "medidas": {
+                "altura": "8 cm",
+                "largura": "12 cm"
+            },
+            "material": "Cerâmica",
+            "capacidade": "300 ml"
+        }
+    },
+    
+        "titulo": "Luminária Star Wars - Estrela da Morte",
+        "descricao": "Apresentamos a Luminária Death Star, o produto perfeito para os fãs da saga Star Wars que querem adicionar um toque de fantasia e aventura ao seu ambiente! Com um design exclusivo inspirado na icônica Estrela da Morte, essa luminária é a escolha ideal para os verdadeiros fãs da saga. Feita com materiais de alta qualidade e com luzes LED de baixo consumo de energia, ela é resistente, resistente e muito funcional.",
+        "url": "https://exemplo.com/luminaria-star-wars-estrela-da-morte",
+        "imagem": "luminaria-death-star.jpg",
+        "id": 2,
+        "preco": {
+            "valor": 179.90,
+            "desconto": 170.91,
+            "desconto_pix": true
+        },
+        "especificacoes": {
+            "tipo": "Luminária",
+            "modelo": "Estrela da Morte Star Wars",
+            "tensao": "Bivolt",
+            "uso": "01 lâmpada Led ou fluorescente (Não inclusa)",
+            "soquete": "E27",
+            "potencia_max": "Até 15W",
+            "tipo_interruptor": "Mão",
+            "composicao": "Polietileno e componentes eletrônicos",
+            "comprimento_cabo": "1,5m",
+            "dimensoes": {
+                "altura": "29cm",
+                "diametro": "28cm"
+            }
+        }
+}
+    
+
